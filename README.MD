@@ -28,6 +28,7 @@ In your terminal navigate to where this file is located.
 ```./Sudoku -t 3``` 🡆 ```50 Hard Cases```
 
 
+![screenshot](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/bf9979c4-7fc5-49dd-a1a1-a3544058525d)
 
 
 To see additional details of test cases passed, use "-d True".
