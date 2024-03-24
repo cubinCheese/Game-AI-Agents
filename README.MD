@@ -3,7 +3,7 @@
 
 ## Navigate to ./2048-AI/2048-AI.exe
 
-<img src="https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/783609f6-3505-4df9-b0a0-c1efe3eb8b8a" width="100">
+<img src="https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/783609f6-3505-4df9-b0a0-c1efe3eb8b8a" width="300">
 
 
 Navigate to ./Blackjack-AI/Blackjack-AI.exe
