@@ -4,7 +4,6 @@
 Navigate to ./2048-AI/2048-AI.exe
 
 
-
 Navigate to ./Blackjack-AI/Blackjack-AI.exe
 
 Navigate to ./Gomoku-AI/Gomoku-AI.exe
@@ -30,5 +29,6 @@ In your terminal navigate to where this file is located.
 
 ![screenshot](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/bf9979c4-7fc5-49dd-a1a1-a3544058525d)
 
+![2048](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/783609f6-3505-4df9-b0a0-c1efe3eb8b8a)
 
 To see additional details of test cases passed, use "-d True".
