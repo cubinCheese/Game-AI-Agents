@@ -5,6 +5,8 @@
 
 <img src="https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/783609f6-3505-4df9-b0a0-c1efe3eb8b8a" width="300">
 
+Focus: Expectimax Search
+
 In 2048, the game state switches between the computer placing down tiles and (you) the player utilizing arrow keys to select a direction to move the tiles. Your goal is to merge as many tiles as possible until you can no longer continue.
 Our AI Agent for 2048 acts as (you) the player and treats the (computer) as its opponent. The method by which our AI Agent maximizes its obtainable score is as follows:
 - Building the depth 3 game tree: This game tree represents all possible states of the game, i.e. all possible moves of the player-computer-player sequence are stored/represented in the game tree.
@@ -14,6 +16,8 @@ Our AI Agent for 2048 acts as (you) the player and treats the (computer) as its 
 ## Navigate to ./Blackjack-AI/Blackjack-AI.exe
 
 ![blackjack](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/11c82a35-615f-4f06-885a-f61aac065385)
+
+Focus: Monte Carlo policy evaluation, Temporal Difference policy evaluation, Q-Learning
 
 Here, similar to how a person practices in a sport, our AI agent wants to maximize its probability of winning by playing more and more games. This way, it can further refine the choices it makes in future games.
 
@@ -27,6 +31,8 @@ AI Agent implements the following:
 ## Navigate to ./Gomoku-AI/Gomoku-AI.exe
 
 ![gomoku](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/f68fad88-2d1c-4f5e-b00c-4a7c0f56e50e)
+
+Focus: Monte Carlo Tree Search
 
 Here, our AI Agent's goal is to get 5 white pieces in a connected sequence before we do. 
 
@@ -42,13 +48,17 @@ Specifically, our MCTS utilizes the following:
 
 ![maze](https://github.com/cubinCheese/Game-AI-Agents/assets/93562548/a9961cd2-ee8c-42b4-8ed3-c7588b73cbde)
 
-We implemented the following path finding algorithms:
+Focus: BFS, DFS, UCS, A* search algorithms
+
+Implemented the following path finding algorithms:
 - BFS: BFS ensures that it finds the shortest path to the exit, as it explores cells in order of their distance from the entrance.
 - DFS: DFS may find a path to the exit faster than BFS in some cases but does not guarantee the shortest path.
 - UCS: UCS guarantees finding the shortest path if the cost of moving from one cell to another is uniform.
 - A*: A* Search would efficiently find the shortest path to the exit, leveraging an admissible and consistent heuristic, such as Manhattan distance or Euclidean distance to the exit. (Utilizes heuristics to know the rough direction of where the ending goal is).
 
 ## Navigate to ./Sudoku-AI/Sudoku-AI
+
+Focus: Constraint solver through backtracking search
 
 How to Run Sudoku AI Agent.
 
